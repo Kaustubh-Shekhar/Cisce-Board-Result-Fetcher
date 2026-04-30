@@ -40,8 +40,8 @@ playwright install chromium
 Open the file and fill in your info in the config block at the top:
 
 ```python
-CENTER_CODE   = "YOUR_CENTER_CODE"    # INDEX NO. first field
-SERIAL_NO     = "YOUR_SERIAL_NUMBER"  # INDEX NO. second field
+CENTER_CODE   = "YOUR_CENTER_CODE"    # Index No First Part
+SERIAL_NO     = "YOUR_SERIAL_NUMBER"  # INDEX NO. second Part
 UNIQUE_ID     = "YOUR_UNIQUE_ID"      # UID field
 COURSE        = "ICSE"                # or "ISC"
 ```
