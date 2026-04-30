@@ -25,10 +25,10 @@ from datetime import datetime
 #  CONFIG — edit these before running
 # ─────────────────────────────────────────────
 URL           = "https://results.cisce.org/"
-CENTER_CODE   = "1266827"   # INDEX NO. first field  → #CenterCode
-SERIAL_NO     = "067"       # INDEX NO. second field → #SerialNumber
-UNIQUE_ID     = "8843111"   # UID field              → #UniqueId
-COURSE        = "ICSE"      # dropdown               → #courseDropDown
+CENTER_CODE   = "CENTER CODE"   # INDEX NO. → #CenterCode
+SERIAL_NO     = "SERIAL NO"       # INDEX NO. → #SerialNumber
+UNIQUE_ID     = "UID"   # UID field              → #UniqueId
+COURSE        = "ICSE/ISC"      # dropdown               → #courseDropDown
 NUM_TABS      = 10              # parallel tabs
 RETRY_DELAY   = 5               # seconds between retries per tab
 HEADLESS      = False           # set True to hide browser
